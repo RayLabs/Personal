@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="8dp"
+    android:background="@android:color/white"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:padding="@dimen/padding_note"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/event_name"
+        android:fontFamily="@font/roboto"
+        android:paddingBottom="4dp"
+        android:textColor="@android:color/black"
+        style="@style/TextAppearance.AppCompat.Medium"
+        tools:text="Picnic with the BCMA Peeps ~ Yay!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/event_time"
+        android:drawableStart="@drawable/ic_time_news_24dp"
+        android:drawableLeft="@drawable/ic_time_news_24dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:fontFamily="@font/roboto_light_italic"
+        android:drawablePadding="@dimen/padding_note"
+        tools:text="Picnic with the BCMA Peeps ~ Yay!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/branch_name"
+        android:fontFamily="@font/roboto"
+        android:paddingTop="8dp"
+        android:textColor="#333333"
+        style="@style/TextAppearance.AppCompat.Small"
+        tools:text="Head Office"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
